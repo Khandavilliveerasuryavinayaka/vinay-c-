@@ -22,7 +22,7 @@
 	cout<<"\nthe "<<x<<"th minimum number is ="<<a[x]; 
 	cout<<"\nthe "<<y<<"th maximum number is ="<<a[n-y];
 	g=a[x]+a[n-y];
-        h=[x]-a[n-y];
+        h=a[x]-a[n-y];
   cout<<"sum of the nth and mth="<<g;
   cout<<"diff of the nth and mth="<<h;
   return 0; 
